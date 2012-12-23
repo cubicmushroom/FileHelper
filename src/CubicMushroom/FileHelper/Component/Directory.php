@@ -1,6 +1,6 @@
 <?php
 
-namespace CubicMushroom\FileHelper;
+namespace CubicMushroom\FileHelper\Component;
 
 class Directory
 {
