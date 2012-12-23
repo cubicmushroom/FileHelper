@@ -4,7 +4,7 @@ namespace CubicMushroom\FileHelper\Component;
 
 class Directory
 {
-    public function rrmdir($dir) {
+    public function rmdir($dir) {
         if (is_dir($dir)) {
             $objects = scandir($dir);
             foreach ($objects as $object) {

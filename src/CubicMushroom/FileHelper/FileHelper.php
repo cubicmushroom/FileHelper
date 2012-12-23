@@ -19,8 +19,8 @@ class FileHelper
     /**
      * @see CubicMushroom\FileHelper\Component\Directory::rrdir()
      */
-    public function rrdir($dir)
+    public function rmdir($dir)
     {
-        $this->directory->rdir($dir);
+        $this->directory->rmdir($dir);
     }
 }
