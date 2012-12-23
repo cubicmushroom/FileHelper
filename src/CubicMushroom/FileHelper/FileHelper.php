@@ -7,8 +7,8 @@ use CubicMushroom\FileHelper\Component\File;
 
 class FileHelper
 {
-    $directory;
-    $file;
+    protected $directory;
+    protected $file;
 
     public function __construct()
     {
